@@ -21,11 +21,19 @@ These are the materials for my Spring 2024 R Tutorial. Hopefully they are helpfu
 
 | Day         | Topics                                |
 | :-----------| :------------------------------------ |
-| Pre-meeting | Installing R, RStudio, and R packages |
-| Day 1       | Introduction to R/RStudio, R basics   |
-| Day 2       | R Markdown, programming basics        |
-| Day 3       | The tidyverse, data structures        |
-| Day 4       | Data visualization with ggplot2       |
-| Day 5       | R Packages, bioinformatics, shiny     |
+| Lecture 1   | Installing R, RStudio, and R packages |
+| Lecture 2   | Introduction to R/RStudio             |
+| Lecture 3   | R basics, Part 1                      |
+| Lecture 4   | R basics, Part 2                      |
+| Lecture 5   | R basics, Part 3                      |
+| Lecture 6   | Programming Basics                    |
+| Lecture 7   | R Markdown                            |
+| Lecture 8   | Input/output data, Data structures    |
+| Lecture 9   | The tidyverse                         |
+| Lecture 10  | Visualization with ggplot2, Part 1    |
+| Lecture 11  | Visualization with ggplot2, Part 2    |
+| Lecture 12  | Creating R Packages                   |
+| Lecture 13  | Shiny Programing, Part 1              |
+| Lecture 14  | Shiny Programing, Part 2              |
 
 
