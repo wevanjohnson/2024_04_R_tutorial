@@ -34,7 +34,7 @@ These are the materials for my Spring 2024 R Tutorial. Hopefully they are helpfu
 | Lecture 11  | Visualization with ggplot2, Part 2    |
 | Lecture 12  | Visualization with ggplot2, Part 3    |
 | Lecture 13  | Creating R Packages                   |
-| Lecture 14  | Shiny Programing, Part 1              |
-| Lecture 15  | Shiny Programing, Part 2              |
+| Lecture 14  | Shiny Programming, Part 1              |
+| Lecture 15  | Shiny Programming, Part 2              |
 
 
