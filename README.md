@@ -13,7 +13,7 @@ These are the materials for my Spring 2024 R Tutorial. Hopefully they are helpfu
 * Lectures will be posted on YouTube and linked to the associate lectures below:
 * Communication: if you have questions or concerns, please email me: <w.evan.johnson@rutgers.edu>
 * GitHub materials for the course:
-    + All materials for this course will be posted on the course GitHub page: [https://github.com/wevanjohnson/2023_11_R_tutorial](https://github.com/wevanjohnson/2024_04_R_tutorial)
+    + All materials for this course will be posted on the course GitHub page: [https://github.com/wevanjohnson/2023_04_R_tutorial](https://github.com/wevanjohnson/2024_04_R_tutorial)
     + You obviously have this since you are here!
 * Schedule:
 
