@@ -5,7 +5,7 @@ author: |
   | Professor, Division of Infectious Disease
   | Director, Center for Data Science
   | Rutgers University -- New Jersey Medical School
-date: "4/15/2024"
+date: "4/23/2024"
 header-includes:
    - \usepackage{amsmath}
 output: 
@@ -85,7 +85,7 @@ One of the great advantages of R over point-and-click analysis software is that 
 
 ## RStudio {#rstudio}
 
-RStudio will be our launching pad for data science projects. It provides an editor for our scripts and provides many other useful tools. We go over some of the basics.
+RStudio will be our launching pad for data science projects. It provides an editor for our scripts and provides many other useful tools. Here are some of the basics.
 
 ![](img/rstudio_image.png){height=40%}
 
@@ -110,10 +110,6 @@ This starts a new pane on the left and it is here where you can start writing yo
 ```{r, echo=FALSE, out.width = "100%",  out.extra=""}
 knitr::include_graphics(screenshots[32]) 
 ```
-
-## Running commands while editing scripts
-
-RStudio is an _Integrated Development Environment_ (IDE) specifically made for R coding. One of the main advantages provided by RStudio over other editors is that we can test our code easily as we edit our scripts. Here we show an example.
 
 ## Running commands while editing scripts
 Let's start by opening a new script and giving the script a name. We can do this through the editor by saving the current new unnamed script.  

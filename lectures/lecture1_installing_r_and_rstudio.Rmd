@@ -5,7 +5,7 @@ author: |
   | Professor, Division of Infectious Disease
   | Director, Center for Data Science
   | Rutgers University -- New Jersey Medical School
-date: "4/20/2024"
+date: "4/23/2024"
 header-includes:
    - \usepackage{amsmath}
 output: 
@@ -32,20 +32,16 @@ mac_screenshots <- list.files(file.path("img/", "mac-screenshots"))
 mac_screenshots <- file.path("img/","mac-screenshots", mac_screenshots)
 ```
 
-## Installing R and RStudio {#installing-r-rstudio}
-
-The instructions on the following slides include screen shots from the installation process using the Chrome browser which, although not necessary, you can freely download and install from here: [https://www.google.com/chrome/](https://www.google.com/chrome/)
-
 ## Installing R and RStudio
 
 **R** is a language for statistical computing and graphics. **RStudio** is an interactive desktop environment (IDE), but it is not R, nor does it include R when you download and install it. Therefore, to use RStudio, we first need to install R.
 
 \center
-![](img/r_rstudio.png){height=30%}
+![](img/r_rstudio.png){height=50%}
 
 ## Installing R (Windows and Mac)
 
-You can download R from the Comprehensive R Archive Network (CRAN)^[https://cran.r-project.org/]. Search for CRAN on your browser:
+Download R from the Comprehensive R Archive Network (CRAN): [https://cran.r-project.org/](https://cran.r-project.org/). Search for "CRAN" on your browser:
 
 ```{r, echo=FALSE}
 knitr::include_graphics(screenshots[1])
@@ -62,7 +58,7 @@ knitr::include_graphics(screenshots[2])
 
 ## Installing R (Windows)
 
-Once at the CRAN download page, you will have several choices. You want to install the _base_ subdirectory. This installs the basic packages you need to get started. We will later learn how to install other needed packages from within R, rather than from this webpage.
+Once at the CRAN download page, you will have several choices. You want to install the _base_ subdirectory. This installs the basic packages you need to get started. We will later learn how to install other needed packages from within R.
 
 ```{r, echo=FALSE}
 knitr::include_graphics(screenshots[3])
@@ -76,7 +72,7 @@ knitr::include_graphics(screenshots[4])
 ```
 
 ## Installing R (Windows)
-If you are using Chrome, at the bottom of your browser you should see a tab that shows you the progress of the download. Once the installer file downloads, you can click on that tab to start the installation process. Other browsers may be different, so you will have to find where they store downloaded files and click on them to get the process started.
+Once the installer file downloads, you can click on that tab to start the installation process. Some browsers may display this differently, so you will have to find where they store downloaded files and click on them to get the process started.
 
 ```{r, echo=FALSE}
 knitr::include_graphics(screenshots[5])
@@ -150,83 +146,71 @@ knitr::include_graphics(mac_screenshots[23])
 
 ## Installing RStudio (Windows and Mac)
 
-You can start by searching for RStudio on your browser:
+To install RStudio, start by searching for "RStudio" on your browser:
 
-```{r, echo=FALSE}
-knitr::include_graphics(screenshots[18]) 
-```
+![](img/rstudio_install_1.png)
 
-## Installing RStudio (Windows and Mac)
-You should find the RStudio website as shown above. Once there, click on _Download RStudio_.
-
-```{r, echo=FALSE}
-knitr::include_graphics(screenshots[19]) 
-```
-
-## Installing RStudio (Windows and Mac)
-This will give you several options. For what we do in this tutorial, it is more than enough to use the free Desktop version:
-
-```{r, echo=FALSE}
-knitr::include_graphics(screenshots[20]) 
-```
-
-## Installing RStudio (Windows and Mac)
-Once you select this option, it will take you to a page in which the operating system options are provided. Click the link showing your operating system.
-
-```{r, echo=FALSE}
-knitr::include_graphics(screenshots[21]) 
-```
-
-
-## Installing RStudio (Windows)
-Once the installation file is downloaded, click on the downloaded file to start the installation process:
-
-```{r, echo=FALSE}
-knitr::include_graphics(screenshots[22]) 
-```
-
-## Installing RStudio (Windows)
-We recommend clicking yes on all the defaults.
-
-```{r, echo=FALSE, out.width = "45%",  out.extra=""}
-knitr::include_graphics(screenshots[23:25]) 
-```
-
-## Installing RStudio (Windows)
-```{r, echo=FALSE, out.width = "45%",  out.extra=""}
-knitr::include_graphics(screenshots[26:28]) 
-```
-  
 ## Installing RStudio (Mac)
-On the Mac, there are fewer clicks. You basically drag and drop the RStudio icon into the Applications folder icon here:
+You should find the Posit/RStudio website as shown above. Once there, click on "Download RStudio Desktop for Mac OS 12+" below the _2: Install RStudio_ header. We first focus on Mac installation. 
 
-```{r, echo=FALSE}
-knitr::include_graphics(mac_screenshots[30]) 
-```
+![](img/rstudio_install_2.png)
 
-## Installing RStudio (Windows and Mac)
-Congratulations! You have installed RStudio. You can now get started as you do on any other program in your computer. 
 
+## Installing RStudio (Mac)
+The download process should start. For Safari on Mac, you should see the progress in the bar at the top right. Double click on the download when its complete.  
+![](img/rstudio_install_3.png)
+
+## Installing RStudio (Mac)
+Now drag and drop the RStudio icon over the Applications icon:
+
+![](img/rstudio_install_4.png)
+
+## Installing RStudio (Mac)
+If you have a previous version of RStudio installed, it may ask if you want to overwrite the old version. We usually want to replace the old with the new, so click "Replace".
+![](img/rstudio_install_5.png)
+
+## Installing RStudio (Mac)
+The system should copy RStudio to the Applications folder: 
+![](img/rstudio_install_6.png)
+
+## Running RStudio (Mac)
+Congratulations! You have installed RStudio. On the Mac, it will be in the Applications folder. Or you can click on the _Spotlight Search_ (magnifying glass in top right corner) and type rstudio into that search bar, then hit enter.
+![](img/rstudio_install_7.png)
+## Installing RStudio (Mac)
+You may get a warning that RStudio is an application downloaded from the internet. Go ahead and click "Open".
+
+![](img/rstudio_install_8.png)
+
+## Installing RStudio (Windows)
+For Windows, the process is similar. From the RStudio main pag, click on "Download RStudio Desktop for Windows" below the _2: Install RStudio_ header. 
+
+![](img/rstudio_win_install_1.png)
+
+
+## Installing RStudio (Windows)
+You may receive a warning, just click "Yes" to continue the install. 
+\center
+![](img/rstudio_win_install_1.5.png){ width=75% }
+
+
+## Installing RStudio (Windows)
+Follow the instructions to install RStudio, defaults are fine.
+\center
+![](img/rstudio_win_install_2.png){ width=45% }
+![](img/rstudio_win_install_3.png){ width=45% }
+![](img/rstudio_win_install_4.png){ width=45% }
+![](img/rstudio_win_install_5.png){ width=45% }
+
+## Installing RStudio (Windows)
+Congratulations! You are done! 
+\center
+![](img/rstudio_win_install_6.png){ width=90% }
 
 ## Running RStudio (Windows)
 On Windows, you can open RStudio from the _Start_ menu. If RStudio does not appear, you can search for it:
 
 ```{r, echo=FALSE}
 knitr::include_graphics(screenshots[29]) 
-```
-
-## Running RStudio (Mac)
-On the Mac, it will be in the Applications folder:
-
-```{r, echo=FALSE, out.width = "45%",  out.extra=""}
-knitr::include_graphics(mac_screenshots[31:32]) 
-```
-
-## Running RStudio (Mac)
-**Pro tip for the Mac**: To avoid using the mouse to open RStudio, hit command+spacebar to open _Spotlight Search_ and type RStudio into that search bar, then hit enter.
-
-```{r, include=FALSE}
-knitr::opts_chunk$set(out.width = NULL, out.extra = NULL)
 ```
 
 ## Session Info
