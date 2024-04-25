@@ -10,19 +10,17 @@ These are the materials for my Spring 2024 R Tutorial. Hopefully they are helpfu
     + https://rafalab.github.io/dsbook/
     + https://mdsr-book.github.io/mdsr2e/
     + https://r4ds.had.co.nz
-* Lecture times and (virtual) location:
-    + Class will occur Mondays at 9pm-1am Mountain Daylight Time (9:30am IST, 11am Jakarta, 12pm Philippines) at the following link: TBD
-    + Lecture recordings will be posted here on the GitHub page in case you miss one!
+* Lectures will be posted on YouTube and linked to the associate lectures below:
 * Communication: if you have questions or concerns, please email me: <w.evan.johnson@rutgers.edu>
 * GitHub materials for the course:
-    + All materials for this course will be posted on the course GitHub page: [https://github.com/wevanjohnson/2023_11_R_tutorial](https://github.com/wevanjohnson/2024_04_R_tutorial)
+    + All materials for this course will be posted on the course GitHub page: [https://github.com/wevanjohnson/2023_04_R_tutorial](https://github.com/wevanjohnson/2024_04_R_tutorial)
     + You obviously have this since you are here!
 * Schedule:
 
 | Day         | Topics                                |
 | :-----------| :------------------------------------ |
-| Lecture 1   | Installing R, RStudio, and R packages |
-| Lecture 2   | Introduction to R/RStudio             |
+| Lecture 1   | Installing R and RStudio              |
+| Lecture 2   | Intro to R, RStudio, & R packages     |
 | Lecture 3   | R basics, Part 1                      |
 | Lecture 4   | R basics, Part 2                      |
 | Lecture 5   | R basics, Part 3                      |
@@ -34,7 +32,7 @@ These are the materials for my Spring 2024 R Tutorial. Hopefully they are helpfu
 | Lecture 11  | Visualization with ggplot2, Part 2    |
 | Lecture 12  | Visualization with ggplot2, Part 3    |
 | Lecture 13  | Creating R Packages                   |
-| Lecture 14  | Shiny Programing, Part 1              |
-| Lecture 15  | Shiny Programing, Part 2              |
+| Lecture 14  | Shiny Programming, Part 1              |
+| Lecture 15  | Shiny Programming, Part 2              |
 
 
