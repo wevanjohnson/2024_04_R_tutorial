@@ -5,7 +5,7 @@ author: |
   | Professor, Division of Infectious Disease
   | Director, Center for Data Science
   | Rutgers University -- New Jersey Medical School
-date: "4/20/2024"
+date: "4/26/2024"
 header-includes:
    - \usepackage{amsmath}
 output: 
@@ -28,7 +28,7 @@ library(countrycode)
 
 ##  Case study: US Gun Murders
 
-Imagine you live in Europe and are offered a job in a US company. It is a great job, but news and charts like this have you worried:
+Imagine you are trying to use a data-driven approach to deciding your opinion on gun regulations. In the process you notice the following trends:
 
 ```{r murder-rate-example-1, echo=FALSE, warning=FALSE, message=FALSE, out.width="80%"}
 ##from http://abcnews.go.com/images/International/homocides_g8_countries_640x360_wmain.jpg
@@ -118,14 +118,13 @@ rm(fifty_states)
 
 California, for example, has a larger population than Canada, and 20 US states have populations larger than that of Norway. 
 
-Furthermore, the murder rates in Lithuania, Ukraine, and Russia (not included) are higher than 4 per 100,000. So perhaps the worries are too superficial. 
+Furthermore, the murder rates in Lithuania, Ukraine, and Russia (not included) are higher than 4 per 100,000. So how does this factor into your decision making process?
 
 We will gain some insights by examining data related to gun homicides in the US during 2010 using R. 
 
 ##  The very basics of R
 
-Before we get started with our example, we need to cover logistics as well as some of the very basic building blocks that are required to gain more advanced R skills. 
-The usefulness of some of these building blocks may not be immediately obvious, but later in the tutorial you will appreciate having mastered these skills.
+But before we get started with our example, lets cover some very basic building blocks for R programming.
 
 ## Objects
 
@@ -146,9 +145,6 @@ c <- -1
 ```
 
 which stores the values for later use. We use `<-` to assign values to the variables. We can also assign values using `=` instead of `<-`, but we recommend against using `=` to avoid confusion.
-
-## Objects
-If you copy and paste the code above into your console to define the three variables. Note that R does not print anything when we make this assignment. This means the objects were defined successfully. Had you made a mistake, you would have received an error message. 
 
 ## Objects
 To see the value stored in a variable, we simply ask R to evaluate `a` and it shows the stored value:
@@ -383,13 +379,14 @@ If a line of R code starts with the symbol `#`, it is not evaluated. We can use 
 
 
 ```{r, eval=FALSE}
-## Code to compute solution to quadratic equation of the form ax^2 + bx + c
-## define the variables
+## Code to compute solution to quadratic equation of 
+## the form ax^2 + bx + c 
+## First define the variables
 a <- 3 
 b <- 2
 c <- -1
 
-## now compute the solution
+## Now compute the solution
 (-b + sqrt(b^2 - 4*a*c)) / (2*a)
 (-b - sqrt(b^2 - 4*a*c)) / (2*a)
 ```
