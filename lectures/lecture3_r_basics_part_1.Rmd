@@ -5,7 +5,7 @@ author: |
   | Professor, Division of Infectious Disease
   | Director, Center for Data Science
   | Rutgers University -- New Jersey Medical School
-date: "4/26/2024"
+date: "4/29/2024"
 header-includes:
    - \usepackage{amsmath}
 output: 
@@ -192,7 +192,10 @@ Now since these values are saved in variables, to obtain a solution to our equat
 Once you define variables, the data analysis process can usually be described as a series of __functions__ applied to the data. R includes several predefined functions and most of the analysis pipelines we construct make extensive use of these. 
 
 ## Functions 
-We already used the `install.packages`, `library`, and `ls` functions. We also used the function `sqrt` to solve the quadratic equation above. There are many more prebuilt functions and even more can be added through packages. These functions do not appear in the workspace because you did not define them, but they are available for immediate use.
+We already used the `install.packages`, `library`, and `ls` functions. We also used the function `sqrt` to solve the quadratic equation above.
+
+\vskip .1in
+There are many more prebuilt functions and even more can be added through packages. These functions do not appear in the workspace because you did not define them, but they are available for immediate use.
 
 ## Functions 
 In general, we need to use parentheses to evaluate a function. If you type `ls`, the function is not evaluated and instead R shows you the code that defines the function. If you type `ls()` the function is evaluated and, as seen above, we see objects in the workspace.
