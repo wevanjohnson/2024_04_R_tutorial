@@ -21,7 +21,7 @@ These are the materials for my Spring 2024 R Tutorial. Hopefully they are helpfu
 | :-----------| :------------------------------------ |
 | Lecture 1   | [Installing R and RStudio](https://youtu.be/iBaNRWKq3uM)              |
 | Lecture 2   | [Intro to R, RStudio, & R packages](https://youtu.be/T0QaM3UJa9o)     |
-| Lecture 3   | R basics, Part 1                      |
+| Lecture 3   | [R basics, Part 1](https://youtu.be/_Fqel84DCHA)                      |
 | Lecture 4   | R basics, Part 2                      |
 | Lecture 5   | R basics, Part 3                      |
 | Lecture 6   | Programming Basics                    |
