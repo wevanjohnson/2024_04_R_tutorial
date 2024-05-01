@@ -5,7 +5,7 @@ author: |
   | Professor, Division of Infectious Disease
   | Director, Center for Data Science
   | Rutgers University -- New Jersey Medical School
-date: "4/20/2024"
+date: "`r Sys.Date()`"
 header-includes:
    - \usepackage{amsmath}
 output: 
@@ -45,7 +45,9 @@ Conceptually, we can think of a data frame as a table with rows representing obs
 Data frames are particularly useful for datasets because we can combine different data types into one object. 
 
 ## Data Frames 
-A large proportion of data analysis challenges start with data stored in a data frame. For example, we stored the data for our motivating example in a data frame. You can access this dataset by loading the __dslabs__ library and loading the `murders` dataset using the `data` function:
+A large proportion of data analysis use data stored in a data frame. 
+
+For example, we stored the data for our motivating example in a data frame. You can access this dataset by loading the __dslabs__ library and loading the `murders` dataset using the `data` function:
 
 ```{r}
 library(dslabs)
