@@ -22,7 +22,7 @@ These are the materials for my Spring 2024 R Tutorial. Hopefully they are helpfu
 | Lecture 1   | [Installing R and RStudio](https://youtu.be/iBaNRWKq3uM)              |
 | Lecture 2   | [Intro to R, RStudio, & R packages](https://youtu.be/T0QaM3UJa9o)     |
 | Lecture 3   | [R Basics, Part 1](https://youtu.be/_Fqel84DCHA)                      |
-| Lecture 4   | R Basics, Part 2                      |
+| Lecture 4   | [R Basics, Part 2](https://youtu.be/b8jBChwaELw)                      |
 | Lecture 5   | R Basics, Part 3                      |
 | Lecture 6   | Programming Basics                    |
 | Lecture 7   | R Markdown                            |
